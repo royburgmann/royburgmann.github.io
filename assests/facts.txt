@@ -1,7 +1,0 @@
-The first computer programmer was a female mathematician.
-Many machines did simple math, but Charles Babbage’s Analytical Machine was the first computer we consider “programmable”.
-Computer programming played an important role in ending World War II.
-There are currently over 700 computer languages.
-The “C” programming language had a predecessor called “B”.
-For the programming language 'Python', its name isn’t about snakes, but about the popular British comedy troupe Monty Python.
-Companies such as NASA, Google, IBM, Walt Disney Feature Animation, Facebook, and Netflix use Python.
