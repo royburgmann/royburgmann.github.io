@@ -18,6 +18,16 @@ nav {
     margin-top: 2%;
 }
 
+a {
+  color: black;
+  text-decoration: underline 1px;
+}
+
+a:hover {
+  color: grey;
+}
+
+
 nav img {
     margin-left: 10px;
 }
@@ -95,6 +105,10 @@ button:active {
 
 #c1, #c3 {
     text-align: center;
+}
+
+#output {
+    
 }
 
 body {

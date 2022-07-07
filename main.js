@@ -2,7 +2,7 @@ const IT_facts = [];
 
 
 function read_file(){
-fetch('assests/facts.txt')
+fetch('assets/facts.txt')
   .then(response => response.text())
   .then(data => {
     const my_array = data.split(".");
