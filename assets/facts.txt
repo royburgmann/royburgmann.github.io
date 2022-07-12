@@ -1,3 +1,0 @@
-Favourite movie: <br> The Hobbit Trilogy.
-Favourite sports: <br> UFC, Football (Soccer), NRL and Darts.
-Current goal: <br> Learn all aspects of Cloud Computing.
