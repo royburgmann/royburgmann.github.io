@@ -282,3 +282,8 @@ border-image:
   margin-bottom: 20px;
 }
 
+.container_progress {
+  margin-top: 25px;
+  padding: 50px;
+  background: rgb(212, 212, 212);
+}
