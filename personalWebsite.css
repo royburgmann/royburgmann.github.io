@@ -283,7 +283,100 @@ border-image:
 }
 
 .container_progress {
-  margin-top: 25px;
-  padding: 50px;
-  background: rgb(212, 212, 212);
+  margin-top: 15px;
+  background: rgb(240, 240, 240);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.container_progress img {
+  min-height: 50px;
+}
+
+.container_progress h2 {
+  color: black;
+  font-size: 2.8em;
+}
+
+.container_progress .pb-3 {
+  min-height: 130px;
+}
+
+.container_progress p {
+  color: #343434;
+}
+
+
+.meter {
+  height: 15px;
+  position: relative;
+  background: #f45151;
+  overflow: hidden;
+  border-radius: 1em;
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+  margin-left: 0;
+}
+
+.perc_appear {
+  -webkit-animation: percentage 5s ease-in-out;
+  -webkit-animation-fill-mode: both;
+    -moz-animation: percentage 3s ease-in-out;
+    -moz-animation-fill-mode: both;
+}
+
+
+@-webkit-keyframes percentage {
+  0% {
+    font-size: 0.1em;
+  }
+
+  100% {
+   font-size: 2em;
+  }
+}
+
+@-moz-keyframes percentage {
+  0% {
+      color: blue;
+    }
+  
+    100% {
+      color: red;
+    }
+}
+
+.progress {
+  background-color: #65e483;
+  -webkit-animation: progressBar 3s ease-in-out;
+  -webkit-animation-fill-mode: both;
+  -moz-animation: progressBar 3s ease-in-out;
+  -moz-animation-fill-mode: both;
+}
+
+@-webkit-keyframes progressBar {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@-moz-keyframes progressBar {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.meter p {
+  color: red;
 }

@@ -22,11 +22,13 @@
         <link rel="stylesheet" media="screen"
             href="https://fontlibrary.org//face/metropolis" type="text/css" />
     </head>
-    <body onload="read_file()">
+    <body onload="read_file();animateValue('valueOne', 'valueTwo', 'valueThree');">
         <div class="links_anchor">
-            <a href="https://www.linkedin.com/in/roy-burgmann-0a59bb228/" id="linkedin_img"><img src="./assets/linkedIn.png"
+            <a href="https://www.linkedin.com/in/roy-burgmann-0a59bb228/"
+                id="linkedin_img"><img src="./assets/linkedIn.png"
                     alt=""></a>
-            <a href="https://github.com/royburgmann" id="github_img"><img src="./assets/github.png" alt=""></a>
+            <a href="https://github.com/royburgmann" id="github_img"><img
+                    src="./assets/github.png" alt=""></a>
         </div>
         <nav>
             <div class="container" id="nav_text">
@@ -87,79 +89,133 @@
                         </div>
                     </div>
                     <div class="container_progress">
-                    <div class="container">
-                        <div class="row">
-                          <div class="col-sm">
+                        <div class="container-fluid">
+                            <h2>Tasks in progress</h2>
                             <div class="row">
-                                <div class="col-md-8">
-                                  <div class="pb-3">
-                                    Python
-                                  </div>
-                                  <div class="row">
-                                    <div class="col-md-6">language</div>
-                                    <div class="col-md-6">image</div>
-                                  </div>
-                                </div>
-                                <div class="col-md-4">Lorem ipsum
-                                    dolor sit amet, consectetur
-                                    adipiscing elit. Donec ac efficitur
-                                    risus. Sed vitae euismod dolor.</div>
-                              </div>
-                          </div>
-                          <div class="col-sm">
-                            <div class="row">
-                                <div class="col-sm-8">
-                                    <div class="pb-3">
-                                        Python
-                                      </div>
-                                      <div class="row">
-                                        <div class="col-sm-2">language</div>
-                                        <div class="col-sm-2">image</div>
-                                      </div>
+                                <div class="col-sm">
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <div class="pb-3"><h3>AWS Cloud
+                                                    Practitioner Certificate
+                                                    CLF-C01</h3>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-8"><img
+                                                        src="./assets/progress_images/aws.png"
+                                                        alt="AWS Image"><br>
+                                                    <br>
+                                                    <div class="meter">
+                                                        <span
+                                                            style="width:100%;"><span
+                                                                class="progress"></span></span>
+                                                    </div></div>
+                                            </div>
+                                            <div class="perc_appear">
+                                               <div id="valueOne">0</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10"><p>The CLF-CO1 is
+                                                an
+                                                entry-level AWS Cloud
+                                                certificate,
+                                                providing the basic fundamentals
+                                                of
+                                                Cloud services. I plan to use
+                                                this
+                                                certificate as a stepping stone
+                                                to further my Cloud studies.</p></div>
                                     </div>
-                                    <div class="col-md-8">Lorem ipsum
-                                        dolor sit amet, consectetur
-                                        adipiscing elit. Donec ac efficitur
-                                        risus. Sed vitae euismod dolor.</div>
-                                  </div>
-                              </div>
-                          <div class="col-sm">
-                            <div class="row">
-                                <div class="col-md-8">
-                                  <div class="pb-3">
-                                    Amazon Web Services
-                                  </div>
-                                  <div class="row">
-                                    <div class="col-md-6">.col-md-6</div>
-                                    <div class="col-md-6">.col-md-6</div>
-                                  </div>
                                 </div>
-                                <div class="col-md-4">Lorem ipsum
-                                    dolor sit amet, consectetur
-                                    adipiscing elit. Donec ac efficitur
-                                    risus. Sed vitae euismod dolor.</div>
-                              </div>
-                          </div>
+                                <div class="col-sm">
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <div class="pb-3">
+                                                <h3>Python through Codecademy</h3>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-8"><img
+                                                        src="./assets/progress_images/python.png"
+                                                        alt="Python Image"><br>
+                                                    <br>
+                                                    <div class="meter">
+                                                        <span
+                                                            style="width:100%;"><span
+                                                                class="progress"></span></span>
+                                                    </div></div>
+                                            </div>
+                                            <div class="perc_appear">
+                                                <div id="valueTwo">0</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10"><p>Codecademy
+                                                provides 55 courses on Python,
+                                                from
+                                                beginner to advanced. The
+                                                projects
+                                                provide commercial like
+                                                experience.
+                                                Will be adding numerous projects
+                                                to
+                                                my resume such as 'Build a
+                                                Machine
+                                                Learning Model'.</p></div>
+                                    </div>
+                                </div>
+                                <div class="col-sm">
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <div class="pb-3">
+                                                <h3>Red Hat System Administrator
+                                                    Certification RHCSA</h3>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-8"><img
+                                                        src="./assets/progress_images/redhat.png"
+                                                        alt="Red Hat Image"><br>
+                                                    <br>
+                                                    <div class="meter">
+                                                        <span
+                                                            style="width:100%;"><span
+                                                                class="progress"></span></span>
+                                                    </div></div>
+                                            </div>
+                                           <div class="perc_appear">
+                                                <div id="valueThree">0</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10"><p>RHCSA is an
+                                                beginner level linux
+                                                certification.
+                                                The reason for Red Hat is due to
+                                                is
+                                                propularity within Cloud
+                                                Computing.
+                                                AWS and Red Hat provide a
+                                                complete,
+                                                enterprise-class
+                                                computing environment.</p></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="container-fluid" id="about_me_container">
                         <h1>About Myself</h1>
                         <div class="row">
-                            <div class="col-6 col-md-4"> 
-                                    <div class="sub_container">
-                                        <div class="col"><img
-                                                src="./assets/information.png"
-                                                alt="education_icon">
-                                        </div>
-                                        <div class="w-100"></div>
-                                        <div class="col"><h2>General Information</h2></div>
-                                        <div class="w-100"></div>
-                                        <div class="col"><br><p>Age: 24 years
-                                                old <br>Location: Sydney, NSW
-                                                <br>Experience: Entry level <br>Job:
-                                                Looking for junior/entry-level
-                                                Software Developer position.</p>
+                            <div class="col-6 col-md-4">
+                                <div class="sub_container">
+                                    <div class="col"><img
+                                            src="./assets/information.png"
+                                            alt="education_icon">
+                                    </div>
+                                    <div class="w-100"></div>
+                                    <div class="col"><h2>General Information</h2></div>
+                                    <div class="w-100"></div>
+                                    <div class="col"><br><p>Age: 24 years
+                                            old <br>Location: Sydney, NSW
+                                            <br>Experience: Entry level <br>Job:
+                                            Looking for junior/entry-level
+                                            Software Developer position.</p>
                                     </div></div>
                             </div>
                             <div class="col-6 col-md-4">
@@ -174,8 +230,10 @@
                                             major in
                                             Entertainment Computing <br>
                                             Cert IV Plumbing & Services <br>
-                                            CCNAv7: Switching, Routing, and Wireless Essentials <br>
-                                            CCNA R&S: Introduction to Networks <br>
+                                            CCNAv7: Switching, Routing, and
+                                            Wireless Essentials <br>
+                                            CCNA R&S: Introduction to Networks
+                                            <br>
                                             - Plans to expand
                                         </p>
                                     </div></div>
@@ -225,5 +283,6 @@
                     </div>
                 </div>
                 <div class="under_colour"></div>
+                
             </body>
         </html>
