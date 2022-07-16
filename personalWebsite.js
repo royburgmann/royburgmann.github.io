@@ -46,52 +46,6 @@ function find_max_value(one, two, three){
     }
      return max;
 }
-function tick(numOne){
-  var objOne = document.getElementById(numOne);
-  currentOne = objOne.innerHTML;
-    var refreshId = setInterval(function(){
-        objOne.innerHTML = currentOne++;
-        if(currentOne > 10){
-          clearInterval(refreshId);
-        }
-    },500);
-    document.getElementById(numOne) = 0;
-}
-
-
-function animateValue(numOne, numTwo, numThree){
-    var objOne = document.getElementById(numOne);
-    var objTwo = document.getElementById(numTwo);
-    var objThree = document.getElementById(numThree); 
-
-    currentOne = objOne.innerHTML;
-    currentTwo = objTwo.innerHTML;
-    currentThree = objThree.innerHTML; 
-    let maxNum = (find_max_value(currentOne, currentTwo, currentThree));
-
-    numOne1 = -5;
-    numTwo1 = 0;
-    numThree1 = -10;
-    
-    var refreshId = setInterval(function(){
-        objTwo.innerHTML = numTwo1++;
-        objThree.innerHTML = numThree1++;
-        
-        if(numTwo1 > 10){
-          clearInterval(refreshId);
-        }
-    },1000);
-    document.getElementById(numTwo) = 0;
-    document.getElementById(numThree) = 0;
-
-    var refreshId1 = setInterval(function(){
-        objOne.innerHTML = numOne1++;
-        if(numOne1 > 10){
-          clearInterval(refreshId1);
-        }
-    },500);
-    document.getElementById(numOne) = 0;
-}
 
 
 

@@ -22,7 +22,7 @@
         <link rel="stylesheet" media="screen"
             href="https://fontlibrary.org//face/metropolis" type="text/css" />
     </head>
-    <body onload="read_file();animateValue('valueOne', 'valueTwo', 'valueThree');">
+    <body onload="read_file();">
         <div class="links_anchor">
             <a href="https://www.linkedin.com/in/roy-burgmann-0a59bb228/"
                 id="linkedin_img"><img src="./assets/linkedIn.png"
@@ -90,7 +90,7 @@
                     </div>
                     <div class="container_progress">
                         <div class="container-fluid">
-                            <h2>Tasks in progress</h2>
+                            <h2>Tasks In Progress</h2>
                             <div class="row">
                                 <div class="col-sm">
                                     <div class="row">
@@ -107,11 +107,11 @@
                                                     <div class="meter">
                                                         <span
                                                             style="width:100%;"><span
-                                                                class="progress"></span></span>
+                                                                class="progress_one"></span></span>
                                                     </div></div>
                                             </div>
                                             <div class="perc_appear">
-                                               <div id="valueOne">0</div>
+                                                <div id="valueOne">5%</div>
                                             </div>
                                         </div>
                                         <div class="col-lg-10"><p>The CLF-CO1 is
@@ -140,11 +140,11 @@
                                                     <div class="meter">
                                                         <span
                                                             style="width:100%;"><span
-                                                                class="progress"></span></span>
+                                                                class="progress_two"></span></span>
                                                     </div></div>
                                             </div>
                                             <div class="perc_appear">
-                                                <div id="valueTwo">0</div>
+                                                <div id="valueTwo">10%</div>
                                             </div>
                                         </div>
                                         <div class="col-lg-10"><p>Codecademy
@@ -176,11 +176,11 @@
                                                     <div class="meter">
                                                         <span
                                                             style="width:100%;"><span
-                                                                class="progress"></span></span>
+                                                                class="progress_three"></span></span>
                                                     </div></div>
                                             </div>
-                                           <div class="perc_appear">
-                                                <div id="valueThree">0</div>
+                                            <div class="perc_appear">
+                                                <div id="valueThree">0%</div>
                                             </div>
                                         </div>
                                         <div class="col-lg-10"><p>RHCSA is an
@@ -199,67 +199,90 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container-fluid" id="about_me_container">
-                        <h1>About Myself</h1>
-                        <div class="row">
-                            <div class="col-6 col-md-4">
-                                <div class="sub_container">
-                                    <div class="col"><img
-                                            src="./assets/information.png"
-                                            alt="education_icon">
+                    <div class="about_me_container">
+                        <div class="container-fluid">
+                            
+                            <h1>About Myself</h1>
+                            <div class="row">
+                                <div class="m-2 col-sm">
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <div class="pb-3"><img
+                                                    src="./assets/information.png"
+                                                    alt="education_icon">
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-8"><h2>General
+                                                        Information</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10"><p>Age: 24 years
+                                                old <br>Location: Sydney, NSW
+                                                <br>Experience: Entry level <br>Job:
+                                                Looking for junior/entry-level
+                                                Software Developer position.</p></div>
                                     </div>
-                                    <div class="w-100"></div>
-                                    <div class="col"><h2>General Information</h2></div>
-                                    <div class="w-100"></div>
-                                    <div class="col"><br><p>Age: 24 years
-                                            old <br>Location: Sydney, NSW
-                                            <br>Experience: Entry level <br>Job:
-                                            Looking for junior/entry-level
-                                            Software Developer position.</p>
-                                    </div></div>
-                            </div>
-                            <div class="col-6 col-md-4">
-                                <div class="sub_container">
-                                    <div class="col"><img
-                                            src="./assets/education.png"
-                                            alt="education_icon"></div>
-                                    <div class="w-100"></div>
-                                    <div class="col"><h2>Education</h2></div>
-                                    <div class="w-100"></div>
-                                    <div class="col"><br><p>Bachelor of ICT,
-                                            major in
-                                            Entertainment Computing <br>
-                                            Cert IV Plumbing & Services <br>
-                                            CCNAv7: Switching, Routing, and
-                                            Wireless Essentials <br>
-                                            CCNA R&S: Introduction to Networks
-                                            <br>
-                                            - Plans to expand
-                                        </p>
-                                    </div></div>
-
-                            </div>
-                            <div class="col-6 col-md-4">
-                                <div class="sub_container">
-                                    <div class="col"><img
-                                            src="./assets/experience.png"
-                                            alt="experience_icon"></div>
-                                    <div class="w-100"></div>
-                                    <div class="col"><h2>Experience</h2></div>
-                                    <div class="w-100"></div>
-                                    <div class="col"><p><br> All current
-                                            programming
-                                            experience is from university and
-                                            personal <a href="./project.html">projects</a>.
-                                            These projects
-                                            extend from a basic calculator
-                                            program to a Linux operating system
-                                            file simulator. Organisation, and
-                                            communication skills
-                                            and team experience stems from 3
-                                            years managing employees,
-                                            jobsites and contracts from previous
-                                            trade.</p></div></div>
+                                </div>
+                                <div class="m-2 col-sm">
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <div class="pb-3"><img
+                                                    src="./assets/education.png"
+                                                    alt="education_icon">
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-8"><h2>Education</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10"><p>Bachelor of
+                                                ICT,
+                                                major in
+                                                Entertainment Computing <br>
+                                                Cert IV Plumbing & Services <br>
+                                                CCNAv7: Switching, Routing, and
+                                                Wireless Essentials <br>
+                                                CCNA R&S: Introduction to
+                                                Networks
+                                                <br>
+                                                - Plans to expand
+                                            </p></div>
+                                    </div>
+                                </div>
+                                <div class="m-2 col-sm">
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <div class="pb-3"><img
+                                                    src="./assets/experience.png"
+                                                    alt="experience_icon">
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-8"><h2>Experience</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10"><br><p>All
+                                                current
+                                                programming
+                                                experience is from university
+                                                and
+                                                personal <a
+                                                    href="./project.html">projects</a>.
+                                                These projects
+                                                extend from a basic calculator
+                                                program to a Linux operating
+                                                system
+                                                file simulator. Organisation,
+                                                and
+                                                communication skills
+                                                and team experience stems from 3
+                                                years managing employees,
+                                                jobsites and contracts from
+                                                previous
+                                                trade.</p></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -267,7 +290,8 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col" id="c1">
-                                    <h1>Facts and Information about myself</h1>
+                                    <h1>Facts and Information about
+                                        myself</h1>
                                 </div>
                                 <div class="col-2" id="c2">
                                     <button id="button"
@@ -283,6 +307,5 @@
                     </div>
                 </div>
                 <div class="under_colour"></div>
-                
             </body>
         </html>
